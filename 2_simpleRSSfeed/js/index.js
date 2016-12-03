@@ -57,7 +57,7 @@ function load_rss() {
         if (removeRes) {
           event.preventDefault();
           $(this).remove()
-          count = count - 1;
+          //count = count - 1;
           removeRes = false;
         }
       })
